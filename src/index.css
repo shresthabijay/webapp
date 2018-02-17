@@ -6,25 +6,41 @@ body {
 
 .active{
   font-weight: bold;
+  font-size: 22px;
 }
 
 a{
   text-decoration: none;
-  color: red;
+  color: darkslategray;
+  font-size:20px;
+  
 }
-.nav{
-  display: flex;
+.nav-bar{
+  padding-top: 20px;
+
+}
+.signup{
+  align-content:center;
 }
 .nav-bar li{
   display: inline;
   list-style-type: none;
   margin-right: 15px;
+  
+}
+.welcome-text{
+  padding-top:110px;
+  text-align: center;
+  color: rgb(102, 137, 156);
+  font-size:20px;
+  font-family: sans-serif;
+
 }
 .header{
   text-align: center;
   font-size: 50px;
   font-family: monospace;
-  color: darkslategrey;
+  color: rgb(71, 126, 126);
 }
 
 .footer{
@@ -37,8 +53,7 @@ a{
 
 .app{
   height:850px; 
-  background-image: url("./contents/background.png");
-  background-size: contain;
+  background-image: url("./contents/cloud.jpg");
 }
 
 *{
